@@ -1,0 +1,12 @@
+- Documentation is clear
+- write in the README which lines to change in the Makefile 
+
+- warnings during compilation should be fixed
+- in reader_mmf you are comparing unsigned ints with 0. The condition is always false. 
+
+- the code is well organized
+- friend operators should be defined outside of the class
+
+- you should define the traits inside the namespace algebra
+
+- you can define only one norm method and then implemented according to the chosen template type 
